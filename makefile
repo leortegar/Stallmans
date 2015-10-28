@@ -1,10 +1,8 @@
-<<<<<<< HEAD
 CC = gcc
 
 all:
 	$(CC) calcMain.c operaciones.c -lm -o calc
 
-=======
 OUT = calcMain
 SRCS = calcMain.c operaciones.c
 CFLAGS = -Wall
@@ -20,4 +18,3 @@ compilar: $(SRCS)
 clean:
 	rm $(OUT)
 
->>>>>>> 29df4e9e1ab6bc499ca6c2347387c05f2ebcb933

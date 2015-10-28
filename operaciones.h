@@ -9,7 +9,7 @@ double resta(double a, double b);
 /*---------------   3. Multiplicación   ------------------*/
 double mult(double a, double b);
 /*---------------      4. División      ------------------*/
-double div(double a, double b);
+double divi(double a, double b);
 /*---------------        5. Seno        ------------------*/
 double seno(double a);
 /*---------------       6. Coseno       ------------------*/
@@ -37,21 +37,21 @@ double exponencial(double a);
 /*---------------      17. Floor ()     ------------------*/
 int piso(double a);
 /*---------------      18. fabs ()      ------------------*/
-double valorAbsoluto(double a);
+//double valorAbsoluto(double a);
 /*---------------      20. fmod ()      ------------------*/
-double fmod(double a, double b, double resultado);
+//double fmod(double a, double b, double resultado);
 /*---------------     21. frexp ()      ------------------*/
-double frexp(double x, double frac);
+//double frexp(double x, double frac);
 /*---------------     22. ldexp ()      ------------------*/
-double Idexp(double x, double ret);
+//double Idexp(double x, double ret);
 /*---------------      23. log ()       ------------------*/
-double logaritmo(double a);
+//double logaritmo(double a);
 /*---------------     24. log10 ()      ------------------*/
-double logBase10(double a);
+//double logBase10(double a);
 /*---------------      25. modf ()      ------------------*/
-double modf(double x, double pfrac, double pentera);
+//double modf(double x, double pfrac, double pentera);
 /*---------------       26. pow ()      ------------------*/
-double potencia(double a, double b);
+//double potencia(double a, double b);
 /*---------------      27. sqrt ()      ------------------*/
-double raizCuadrada(double a);
+//double raizCuadrada(double a);
 /*---------------      28. Salir ()      ------------------*/
