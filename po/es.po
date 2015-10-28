@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: calc 0.1\n"
 "Report-Msgid-Bugs-To: adrian@aztli.com\n"
-"POT-Creation-Date: 2015-10-28 02:17-0600\n"
+"POT-Creation-Date: 2015-10-28 10:08-0600\n"
 "PO-Revision-Date: 2015-10-28 02:24-0600\n"
 "Last-Translator: Roberto <roberto@roberto-pc>\n"
 "Language-Team: Spanish\n"
@@ -106,6 +106,26 @@ msgstr "\t\t\t:::::Escriba su opcion:::"
 #, c-format
 msgid "\t\t\tResult = %lf\n"
 msgstr "\t\t\tResultado = %lf\n"
+
+#: operaciones.c:8 operaciones.c:17 operaciones.c:26 operaciones.c:36
+#: operaciones.c:51 operaciones.c:58 operaciones.c:65 operaciones.c:72
+#: operaciones.c:79 operaciones.c:86 operaciones.c:93 operaciones.c:100
+#: operaciones.c:107 operaciones.c:114 operaciones.c:123 operaciones.c:130
+#: operaciones.c:137
+#, c-format
+msgid "\t\t\tType a = "
+msgstr "Escriba a = "
+
+#: operaciones.c:10 operaciones.c:19 operaciones.c:28 operaciones.c:38
+#: operaciones.c:116
+#, c-format
+msgid "\t\t\tType b = "
+msgstr "Escriba b= "
+
+#: operaciones.c:43
+#, c-format
+msgid "\t\t\tType b different from 0 "
+msgstr "Escriba b diferente de 0 "
 
 #: calcMain.c:142
 #, c-format
