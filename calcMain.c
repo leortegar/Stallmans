@@ -1,12 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
+#include <libintl.h>
+#include <locale.h>
 #include "operaciones.h"
+
+#define _(cadena) gettext(cadena)
 
 void menu()
 {
-	printf("\t\t\t----------Bienvenido a Calculadora Stallmans!-----------\n");
-	printf("\t\t\t---------------Opciones de calculadora------------------\n");
+	printf(_("\t\t\t----------Welcome to Stallmans Calculator!-----------\n"));
+	printf(_("\t\t\t----------------Options Calculator-------------------\n"));
 	printf("\t\t\t---------------        1. Suma        ------------------\n");
 	printf("\t\t\t---------------       2. Resta        ------------------\n");
 	printf("\t\t\t---------------   3. Multiplicación   ------------------\n");
@@ -39,12 +43,17 @@ void menu()
 
 
 int main(){
+	bind_textdomain_codeset ("calcMain", "UTF-8");
+	setlocale(LC_ALL, "");
+	bindtextdomain("calcMain", "idioma");
+	textdomain("calcMain");
+
 	int op,salir=0;
 	double a,b,resultado;
 	while (!salir){
 		menu();
 
-		printf("\t\t\t:::::Ingresa tu opción:::");
+		printf(_("\t\t\t:::::Type your option:::"));
 		scanf("%d",&op);
 
 		switch (op)
@@ -104,10 +113,10 @@ int main(){
 			salir=1;
 			break;
 		default:
-			printf("Opción desconocida, pruebe otra vez sólo con dígitos.");
+			printf(_("unknown option, try again only digits"));
 		}
 	
-		printf("\t\t\tResultado = %lf\n",resultado);
+		printf(_("\t\t\tResult = %lf\n"),resultado);
 		
 		sleep(3);
 		system("clear");
