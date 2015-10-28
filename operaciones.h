@@ -4,7 +4,7 @@
 double sum(double a, double b);
 double resta(double a, double b);
 double mult(double a, double b);
-double div(double a, double b);
+double divi(double a, double b);
 double seno(double a);
 double coseno(double a);
 double tangente(double a);
