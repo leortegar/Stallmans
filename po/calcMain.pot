@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: calcMain 0.1\n"
-"Report-Msgid-Bugs-To: patriciohc.0@gmail.com\n"
-"POT-Creation-Date: 2015-10-27 22:11-0600\n"
+"Project-Id-Version: calc 0.1\n"
+"Report-Msgid-Bugs-To: adrian@aztli.com\n"
+"POT-Creation-Date: 2015-10-28 09:18-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,6 +16,76 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: calcMain.c:14
+#, c-format
+msgid "\t\t\t---------------        1. Add        ------------------\n"
+msgstr ""
+
+#: calcMain.c:18
+#, c-format
+msgid "\t\t\t---------------        5. Sine        ------------------\n"
+msgstr ""
+
+#: calcMain.c:15
+#, c-format
+msgid "\t\t\t---------------       2. Substract        ------------------\n"
+msgstr ""
+
+#: calcMain.c:19
+#, c-format
+msgid "\t\t\t---------------       6. Cosine       ------------------\n"
+msgstr ""
+
+#: calcMain.c:24
+#, c-format
+msgid "\t\t\t---------------      11. Sine Hip     ------------------\n"
+msgstr ""
+
+#: calcMain.c:40
+#, c-format
+msgid "\t\t\t---------------      27. EXIT        ------------------\n"
+msgstr ""
+
+#: calcMain.c:17
+#, c-format
+msgid "\t\t\t---------------      4. Division      ------------------\n"
+msgstr ""
+
+#: calcMain.c:20
+#, c-format
+msgid "\t\t\t---------------      7. Tangent      ------------------\n"
+msgstr ""
+
+#: calcMain.c:21
+#, c-format
+msgid "\t\t\t---------------      8. Arco Sine     ------------------\n"
+msgstr ""
+
+#: calcMain.c:25
+#, c-format
+msgid "\t\t\t---------------     12. Cosine Hip    ------------------\n"
+msgstr ""
+
+#: calcMain.c:22
+#, c-format
+msgid "\t\t\t---------------     9. Arco Cosine    ------------------\n"
+msgstr ""
+
+#: calcMain.c:26
+#, c-format
+msgid "\t\t\t---------------    13. Tangent Hip   ------------------\n"
+msgstr ""
+
+#: calcMain.c:23
+#, c-format
+msgid "\t\t\t---------------   10. Arco Tangent   ------------------\n"
+msgstr ""
+
+#: calcMain.c:16
+#, c-format
+msgid "\t\t\t---------------   3. Multiplication   ------------------\n"
+msgstr ""
 
 #: calcMain.c:13
 #, c-format
@@ -27,37 +97,17 @@ msgstr ""
 msgid "\t\t\t----------Welcome to Stallmans Calculator!-----------\n"
 msgstr ""
 
-#: calcMain.c:56
+#: calcMain.c:55
 #, c-format
 msgid "\t\t\t:::::Type your option:::"
 msgstr ""
 
-#: calcMain.c:119
+#: calcMain.c:145
 #, c-format
 msgid "\t\t\tResult = %lf\n"
 msgstr ""
 
-#: operaciones.c:5 operaciones.c:14 operaciones.c:23 operaciones.c:33
-#: operaciones.c:48 operaciones.c:55 operaciones.c:62 operaciones.c:69
-#: operaciones.c:76 operaciones.c:83 operaciones.c:90 operaciones.c:97
-#: operaciones.c:104 operaciones.c:111 operaciones.c:120 operaciones.c:127
-#: operaciones.c:134
-#, c-format
-msgid "\t\t\tType a = "
-msgstr ""
-
-#: operaciones.c:7 operaciones.c:16 operaciones.c:25 operaciones.c:35
-#: operaciones.c:113
-#, c-format
-msgid "\t\t\tType b = "
-msgstr ""
-
-#: operaciones.c:40
-#, c-format
-msgid "\t\t\tType b different from 0 "
-msgstr ""
-
-#: calcMain.c:116
+#: calcMain.c:142
 #, c-format
 msgid "unknown option, try again only digits"
 msgstr ""

@@ -141,7 +141,7 @@ int main(){
 		default:
 			printf(_("unknown option, try again only digits"));
 		}
-		if(!salida){
+		if(!salir){
 			printf(_("\t\t\tResult = %lf\n"),resultado);
 		}
 		sleep(3);
