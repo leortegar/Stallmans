@@ -29,15 +29,15 @@ void menu()
 	printf("\t\t\t---------------       16. Exp ()      ------------------\n");
 	printf("\t\t\t---------------      17. Floor ()     ------------------\n");
 	printf("\t\t\t---------------      18. fabs ()      ------------------\n");
-	printf("\t\t\t---------------      20. fmod ()      ------------------\n");
-	printf("\t\t\t---------------     21. frexp ()      ------------------\n");
-	printf("\t\t\t---------------     22. ldexp ()      ------------------\n");
-	printf("\t\t\t---------------      23. log ()       ------------------\n");
-	printf("\t\t\t---------------     24. log10 ()      ------------------\n");
-	printf("\t\t\t---------------      25. modf ()      ------------------\n");
-	printf("\t\t\t---------------       26. pow ()      ------------------\n");
-	printf("\t\t\t---------------      27. sqrt ()      ------------------\n");
-	printf("\t\t\t---------------      28. SALIR        ------------------\n");
+	printf("\t\t\t---------------      19. fmod ()      ------------------\n");
+	printf("\t\t\t---------------     20. frexp ()      ------------------\n");
+	printf("\t\t\t---------------     21. ldexp ()      ------------------\n");
+	printf("\t\t\t---------------      22. log ()       ------------------\n");
+	printf("\t\t\t---------------     23. log10 ()      ------------------\n");
+	printf("\t\t\t---------------      24. modf ()      ------------------\n");
+	printf("\t\t\t---------------       25. pow ()      ------------------\n");
+	printf("\t\t\t---------------      26. sqrt ()      ------------------\n");
+	printf("\t\t\t---------------      27. SALIR        ------------------\n");
 	
 }
 
@@ -109,7 +109,34 @@ int main(){
 		case 17:
 			resultado = piso(a);
 			break;
-		case 28: 
+                case 18:
+                        resultado = valorAbsoluto(a);
+                        break;
+                case 19:
+                        resultado = funcion_fmod(a, b, resultado);
+                        break;
+                case 20:
+                        resultado = funcion_frexp(a, b);
+                        break;
+                case 21:
+                        resultado = funcion_Idexp(a, b);
+                        break;
+                case 22:
+                        resultado = logaritmo(a);
+                        break;
+                case 23:
+                        resultado = logBase10(a);
+                        break;
+                case 24:
+                        resultado = funcion_modf(a,b,resultado);
+                        break;
+                case 25:
+                        resultado = potencia(a,b);
+                        break;
+                case 26:
+                        resultado = raizCuadrada(a);
+                        break;
+		case 27: 
 			salir=1;
 			break;
 		default:

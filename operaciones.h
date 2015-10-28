@@ -37,21 +37,21 @@ double exponencial(double a);
 /*---------------      17. Floor ()     ------------------*/
 int piso(double a);
 /*---------------      18. fabs ()      ------------------*/
-//double valorAbsoluto(double a);
-/*---------------      20. fmod ()      ------------------*/
-//double fmod(double a, double b, double resultado);
-/*---------------     21. frexp ()      ------------------*/
-//double frexp(double x, double frac);
-/*---------------     22. ldexp ()      ------------------*/
-//double Idexp(double x, double ret);
-/*---------------      23. log ()       ------------------*/
-//double logaritmo(double a);
-/*---------------     24. log10 ()      ------------------*/
-//double logBase10(double a);
-/*---------------      25. modf ()      ------------------*/
-//double modf(double x, double pfrac, double pentera);
-/*---------------       26. pow ()      ------------------*/
-//double potencia(double a, double b);
-/*---------------      27. sqrt ()      ------------------*/
-//double raizCuadrada(double a);
-/*---------------      28. Salir ()      ------------------*/
+double valorAbsoluto(double a);
+/*---------------      19. fmod ()      ------------------*/
+double funcion_fmod(double a, double b, double resultado);
+/*---------------     20. frexp ()      ------------------*/
+double funcion_frexp(double x, double frac);
+/*---------------     21. ldexp ()      ------------------*/
+double funcion_Idexp(double x, double ret);
+/*---------------      22. log ()       ------------------*/
+double logaritmo(double a);
+/*---------------     23. log10 ()      ------------------*/
+double logBase10(double a);
+/*---------------      24. modf ()      ------------------*/
+double funcion_modf(double x, double pfrac, double pentera);
+/*---------------       25. pow ()      ------------------*/
+double potencia(double a, double b);
+/*---------------      26. sqrt ()      ------------------*/
+double raizCuadrada(double a);
+
