@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
 #include "operaciones.h"
 
 void menu()
@@ -31,75 +33,84 @@ void menu()
 	printf("\t\t\t---------------      25. modf ()      ------------------\n");
 	printf("\t\t\t---------------       26. pow ()      ------------------\n");
 	printf("\t\t\t---------------      27. sqrt ()      ------------------\n");
+	printf("\t\t\t---------------      28. SALIR        ------------------\n");
+	
 }
 
 
 int main(){
-	int op;
+	int op,salir=0;
 	double a,b,resultado;
-	menu();
+	while (!salir){
+		menu();
 
-	printf("\t\t\t:::::Ingresa tu opción:::");
-	scanf("%d",&op);
+		printf("\t\t\t:::::Ingresa tu opción:::");
+		scanf("%d",&op);
 
-	switch (op)
-	{
-	case 1:
-		resultado = sum(a, b);
-		break;
-	case 2:
-		resultado = resta(a, b);
-		break;
-	case 3:
-		resultado = mult(a, b);
-		break;
-	case 4:
-		resultado = div(a, b);
-		break;
-	case 5:
-		resultado = seno(a);
-		break;
-	case 6:
-		resultado = coseno(a);
-		break;
-	case 7:
-		resultado = tangente(a);
-		break;
-	case 8:
-		resultado = aseno(a);
-		break;
-	case 9:
-		resultado = acoseno(a);
-		break;
-	case 10:
-		resultado = atangente(a);
-		break;
-	case 11:
-		resultado = senoh(a);
-		break;
-	case 12:
-		resultado = cosenoh(a);
-		break;
-	case 13:
-		resultado = tangenteh(a);
-		break;
-	case 14:
-		resultado = atangente2(a,b);
-		break;
-	case 15:
-		resultado = techo(a);
-		break;
-	case 16:
-		resultado = exponencial(a);
-		break;
-	case 17:
-		resultado = piso(a);
-		break;
-	default:
-		printf("Opción desconozida, pruebe otra vez sólo con dígitos.");
-	}
+		switch (op)
+		{
+		case 1:
+			resultado = sum(a, b);
+			break;
+		case 2:
+			resultado = resta(a, b);
+			break;
+		case 3:
+			resultado = mult(a, b);
+			break;
+		case 4:
+			resultado = divi(a, b);
+			break;
+		case 5:
+			resultado = seno(a);
+			break;
+		case 6:
+			resultado = coseno(a);
+			break;
+		case 7:
+			resultado = tangente(a);
+			break;
+		case 8:
+			resultado = aseno(a);
+			break;
+		case 9:
+			resultado = acoseno(a);
+			break;
+		case 10:
+			resultado = atangente(a);
+			break;
+		case 11:
+			resultado = senoh(a);
+			break;
+		case 12:
+			resultado = cosenoh(a);
+			break;
+		case 13:
+			resultado = tangenteh(a);
+			break;
+		case 14:
+			resultado = atangente2(a,b);
+			break;
+		case 15:
+			resultado = techo(a);
+			break;
+		case 16:
+			resultado = exponencial(a);
+			break;
+		case 17:
+			resultado = piso(a);
+			break;
+		case 28: 
+			salir=1;
+			break;
+		default:
+			printf("Opción desconocida, pruebe otra vez sólo con dígitos.");
+		}
 	
-	printf("\t\t\tLa suma de a + b = %lf\n",resultado);
-
+		printf("\t\t\tResultado = %lf\n",resultado);
+		
+		sleep(3);
+		system("clear");
+	}
 	return 0;
 }

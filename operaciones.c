@@ -27,7 +27,7 @@ double mult(double a, double b)
 	return (a * b);
 }
 
-double div(double a, double b)
+double divi(double a, double b)
 {
 	while(1) {
 		printf("\t\t\tIngresa a = ");

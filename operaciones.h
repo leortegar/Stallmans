@@ -8,9 +8,13 @@ double sum(double a, double b);
 double resta(double a, double b);
 /*---------------   3. Multiplicación   ------------------*/
 double mult(double a, double b);
+<<<<<<< HEAD
 /*---------------      4. División      ------------------*/
 double div(double a, double b);
 /*---------------        5. Seno        ------------------*/
+=======
+double divi(double a, double b);
+>>>>>>> 29df4e9e1ab6bc499ca6c2347387c05f2ebcb933
 double seno(double a);
 /*---------------       6. Coseno       ------------------*/
 double coseno(double a);
