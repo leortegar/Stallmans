@@ -11,19 +11,19 @@ void menu()
 {
 	printf(_("\t\t\t----------Welcome to Stallmans Calculator!-----------\n"));
 	printf(_("\t\t\t----------------Options Calculator-------------------\n"));
-	printf("\t\t\t---------------        1. Suma        ------------------\n");
-	printf("\t\t\t---------------       2. Resta        ------------------\n");
-	printf("\t\t\t---------------   3. Multiplicación   ------------------\n");
-	printf("\t\t\t---------------      4. División      ------------------\n");
-	printf("\t\t\t---------------        5. Seno        ------------------\n");
-	printf("\t\t\t---------------       6. Coseno       ------------------\n");
-	printf("\t\t\t---------------      7. Tangente      ------------------\n");
-	printf("\t\t\t---------------      8. Arco Seno     ------------------\n");
-	printf("\t\t\t---------------     9. Arco Coseno    ------------------\n");
-	printf("\t\t\t---------------   10. Arco Tangente   ------------------\n");
-	printf("\t\t\t---------------      11. Seno Hip     ------------------\n");
-	printf("\t\t\t---------------     12. Coseno Hip    ------------------\n");
-	printf("\t\t\t---------------    13. Tangente Hip   ------------------\n");
+	printf(_("\t\t\t---------------        1. Add        ------------------\n"));
+	printf(_("\t\t\t---------------       2. Substract        ------------------\n"));
+	printf(_("\t\t\t---------------   3. Multiplication   ------------------\n"));
+	printf(_("\t\t\t---------------      4. Division      ------------------\n"));
+	printf(_("\t\t\t---------------        5. Sine        ------------------\n"));
+	printf(_("\t\t\t---------------       6. Cosine       ------------------\n"));
+	printf(_("\t\t\t---------------      7. Tangent      ------------------\n"));
+	printf(_("\t\t\t---------------      8. Arco Sine     ------------------\n"));
+	printf(_("\t\t\t---------------     9. Arco Cosine    ------------------\n"));
+	printf(_("\t\t\t---------------   10. Arco Tangent   ------------------\n"));
+	printf(_("\t\t\t---------------      11. Sine Hip     ------------------\n"));
+	printf(_("\t\t\t---------------     12. Cosine Hip    ------------------\n"));
+	printf(_("\t\t\t---------------    13. Tangent Hip   ------------------\n"));
 	printf("\t\t\t---------------      14. atan2()      ------------------\n");
 	printf("\t\t\t---------------      15. Ceil ()      ------------------\n");
 	printf("\t\t\t---------------       16. Exp ()      ------------------\n");
@@ -37,8 +37,7 @@ void menu()
 	printf("\t\t\t---------------      24. modf ()      ------------------\n");
 	printf("\t\t\t---------------       25. pow ()      ------------------\n");
 	printf("\t\t\t---------------      26. sqrt ()      ------------------\n");
-	printf("\t\t\t---------------      27. SALIR        ------------------\n");
-	
+	printf(_("\t\t\t---------------      27. EXIT        ------------------\n"));
 }
 
 
@@ -142,9 +141,9 @@ int main(){
 		default:
 			printf(_("unknown option, try again only digits"));
 		}
-	
-		printf(_("\t\t\tResult = %lf\n"),resultado);
-		
+		if(!salida){
+			printf(_("\t\t\tResult = %lf\n"),resultado);
+		}
 		sleep(3);
 		system("clear");
 	}
