@@ -49,6 +49,7 @@ int main(){
 	float op;
 	int salir=0;
 	double a,b,resultado;
+	a=b=0;
 	while (!salir){
 		menu();
 		op = 0.0;
@@ -135,7 +136,7 @@ int main(){
 		        case 26:
 		                resultado = raizCuadrada(a);
 		                break;
-			case 27: 
+			case 27:
 				salir=1;
 				break;
 			default:

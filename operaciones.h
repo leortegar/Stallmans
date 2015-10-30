@@ -1,7 +1,14 @@
 #include <math.h>
 #include <stdio.h>
+#include <string.h>
+#include <stdbool.h>
+#include <stdlib.h>
 
 
+/*--------------- Validacion de numeros ------------------*/
+bool isDouble(char into[]);
+void getNumbers (double *a, double *b);
+void getNumber (double *a);
 /*---------------        1. Suma        ------------------*/
 double sum(double a, double b);
 /*---------------       2. Resta        ------------------*/
@@ -54,4 +61,3 @@ double funcion_modf(double x, double pfrac, double pentera);
 double potencia(double a, double b);
 /*---------------      26. sqrt ()      ------------------*/
 double raizCuadrada(double a);
-

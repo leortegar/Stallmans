@@ -6,10 +6,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: calc 0.1\n"
-"Report-Msgid-Bugs-To: adrian@aztli.com\n"
-"POT-Creation-Date: 2015-10-28 10:08-0600\n"
+"Report-Msgid-Bugs-To: rigel.orphe@gmail.com\n"
+"POT-Creation-Date: 2015-10-30 01:32-0600\n"
 "PO-Revision-Date: 2015-10-28 02:24-0600\n"
-"Last-Translator: Roberto <roberto@roberto-pc>\n"
+"Last-Translator: rigel <rigel@rigel.domain>\n"
 "Language-Team: Spanish\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -97,37 +97,37 @@ msgstr "\t\t\t----------------Opciones Calculadora-------------------\n"
 msgid "\t\t\t----------Welcome to Stallmans Calculator!-----------\n"
 msgstr "\t\t\t----------Bienvenido a calculadora Stallmans!-----------\n"
 
-#: calcMain.c:55
+#: calcMain.c:56
 #, c-format
 msgid "\t\t\t:::::Type your option:::"
 msgstr "\t\t\t:::::Escriba su opcion:::"
 
-#: calcMain.c:145
+#: operaciones.c:36 operaciones.c:44 operaciones.c:57
+#, c-format
+msgid "\t\t\tOnly Numbers"
+msgstr "Sólo Números"
+
+#: calcMain.c:147
 #, c-format
 msgid "\t\t\tResult = %lf\n"
 msgstr "\t\t\tResultado = %lf\n"
 
-#: operaciones.c:8 operaciones.c:17 operaciones.c:26 operaciones.c:36
-#: operaciones.c:51 operaciones.c:58 operaciones.c:65 operaciones.c:72
-#: operaciones.c:79 operaciones.c:86 operaciones.c:93 operaciones.c:100
-#: operaciones.c:107 operaciones.c:114 operaciones.c:123 operaciones.c:130
-#: operaciones.c:137
+#: operaciones.c:33 operaciones.c:54
 #, c-format
 msgid "\t\t\tType a = "
 msgstr "Escriba a = "
 
-#: operaciones.c:10 operaciones.c:19 operaciones.c:28 operaciones.c:38
-#: operaciones.c:116
+#: operaciones.c:41
 #, c-format
 msgid "\t\t\tType b = "
 msgstr "Escriba b= "
 
-#: operaciones.c:43
+#: operaciones.c:90
 #, c-format
 msgid "\t\t\tType b different from 0 "
 msgstr "Escriba b diferente de 0 "
 
-#: calcMain.c:142
+#: calcMain.c:143
 #, c-format
 msgid "unknown option, try again only digits"
 msgstr "Opcion desconocida, intente otra vez solo con digitos"
