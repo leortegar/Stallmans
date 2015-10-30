@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: calc 0.1\n"
-"Report-Msgid-Bugs-To: rigel.orphe@gmail.com\n"
-"POT-Creation-Date: 2015-10-30 01:32-0600\n"
+"Report-Msgid-Bugs-To: nlira42@gmail.com\n"
+"POT-Creation-Date: 2015-10-30 16:46-0600\n"
 "PO-Revision-Date: 2015-10-28 02:24-0600\n"
 "Last-Translator: rigel <rigel@rigel.domain>\n"
 "Language-Team: Spanish\n"
@@ -126,6 +126,51 @@ msgstr "Escriba b= "
 #, c-format
 msgid "\t\t\tType b different from 0 "
 msgstr "Escriba b diferente de 0 "
+
+#: operaciones.c:248
+#, c-format
+msgid "Decimal part: "
+msgstr "Parte decimal: "
+
+#: operaciones.c:188
+#, c-format
+msgid "Dividend:: "
+msgstr "Dividendo:: "
+
+#: operaciones.c:186
+#, c-format
+msgid "Divisor:: "
+msgstr "Divisor:: "
+
+#: operaciones.c:243
+#, c-format
+msgid "Enter a floating number ( integer and fractional part):"
+msgstr "Ingrese un número flotante (parte entera y fraccionaria):"
+
+#: operaciones.c:246
+#, c-format
+msgid "Integer part : "
+msgstr "Parte entera: "
+
+#: operaciones.c:191
+#, c-format
+msgid "Remainder of "
+msgstr "El residuo de "
+
+#: operaciones.c:204 operaciones.c:216
+#, c-format
+msgid "Type a number:: "
+msgstr "Ingrese un numero:: "
+
+#: operaciones.c:218
+#, c-format
+msgid "Type exponent:: "
+msgstr "Ingrese el exponente:: "
+
+#: operaciones.c:193
+#, c-format
+msgid "is "
+msgstr "es "
 
 #: calcMain.c:143
 #, c-format

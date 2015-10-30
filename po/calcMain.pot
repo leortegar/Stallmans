@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: calc 0.1\n"
-"Report-Msgid-Bugs-To: rigel.orphe@gmail.com\n"
-"POT-Creation-Date: 2015-10-30 01:32-0600\n"
+"Project-Id-Version: calcMain 0.1\n"
+"Report-Msgid-Bugs-To: nlira42@gmail.com\n"
+"POT-Creation-Date: 2015-10-30 16:46-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -125,6 +125,51 @@ msgstr ""
 #: operaciones.c:90
 #, c-format
 msgid "\t\t\tType b different from 0 "
+msgstr ""
+
+#: operaciones.c:248
+#, c-format
+msgid "Decimal part: "
+msgstr ""
+
+#: operaciones.c:188
+#, c-format
+msgid "Dividend:: "
+msgstr ""
+
+#: operaciones.c:186
+#, c-format
+msgid "Divisor:: "
+msgstr ""
+
+#: operaciones.c:243
+#, c-format
+msgid "Enter a floating number ( integer and fractional part):"
+msgstr ""
+
+#: operaciones.c:246
+#, c-format
+msgid "Integer part : "
+msgstr ""
+
+#: operaciones.c:191
+#, c-format
+msgid "Remainder of "
+msgstr ""
+
+#: operaciones.c:204 operaciones.c:216
+#, c-format
+msgid "Type a number:: "
+msgstr ""
+
+#: operaciones.c:218
+#, c-format
+msgid "Type exponent:: "
+msgstr ""
+
+#: operaciones.c:193
+#, c-format
+msgid "is "
 msgstr ""
 
 #: calcMain.c:143

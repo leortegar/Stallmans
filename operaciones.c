@@ -183,12 +183,15 @@ double valorAbsoluto(double a)
 double funcion_fmod(double a, double b, double resultado)
 {
 	/* Devuelve el residuo de la división para un número flotante */
-	printf("Divisor:: ");
+	printf(_("Divisor:: "));
 	scanf ("%lf", &a);
-	printf("Dividendo:: ");
+	printf(_("Dividend:: "));
 	scanf("%lf", &b);
 	resultado = fmod(a,b);
-	printf("El residuo de %lf / %lf es %lf\n", a, b, resultado);
+	printf(_("Remainder of "));
+	printf("%lf/ ",a);
+	printf(_("is "));
+	printf("%lf\n",resultado);
 	return(resultado);
 }
 
@@ -198,7 +201,7 @@ double funcion_frexp(double x, double frac)
 	 /* Ingresado un número, lo descompone en un numero (fraccion) que multiplicado por dos y
 	 * elevado a una potencia da el número inicial (x = mantisa * 2^exp)                   */
 	int e;
-	printf("Ingrese un número:: ");
+	printf(_("Type a number:: "));
 	scanf ("%lf", &x);
 	frac = frexp(x, &e);
 	printf("x = %.2lf = %.2lf * 2^%d\n", x, frac, e);
@@ -210,9 +213,9 @@ double funcion_Idexp(double x, double ret)
 {
 	/* Eleva al número dos a una potencia dada y lo multiplica por el número ingresado (x * 2^exp) */
 	int n;
-    printf("Ingrese el número:: ");
+    printf(_("Type a number:: "));
     scanf("%lf", &x);
-    printf("Ingrese el exponente:: ");
+    printf(_("Type exponent:: "));
     scanf ("%d", &n);
 	ret = ldexp(x ,n);
 	printf("%f * 2^%d = %f\n", x, n, ret);
@@ -237,11 +240,13 @@ double logBase10(double a)
 double funcion_modf(double x, double pfrac, double pentera)
 {
 	/* Separa la parte entera y la parte decimal de un número flotante*/
-	printf("Enter a floating number ( integer and fractional part):");
+	printf(_("Enter a floating number ( integer and fractional part):"));
 	scanf ("%lf", &x);
 	pfrac = modf(x,&pentera);
-	printf("Integer part : %lf\n", pentera);
-	printf("Decimal part: %lf \n", pfrac);
+	printf(_("Integer part : "));
+	printf("%lf\n",pentera);
+	printf(_("Decimal part: "));
+	printf("%lf \n",pfrac);
 	return(0);
 }
 
